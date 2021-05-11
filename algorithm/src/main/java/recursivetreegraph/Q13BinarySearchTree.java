@@ -12,7 +12,7 @@ package recursivetreegraph;
  * 15 20
  */
 
-public class BinarySearchTree12 {
+public class Q13BinarySearchTree {
 
     private int target;
 
@@ -58,7 +58,7 @@ public class BinarySearchTree12 {
     }
 
     public static void main(String[] args) {
-        BinarySearchTree12 subset = new BinarySearchTree12();
+        Q13BinarySearchTree subset = new Q13BinarySearchTree();
         subset.solution(24);
         subset.solution(15);
     }

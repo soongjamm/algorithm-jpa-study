@@ -18,7 +18,7 @@ package recursivetreegraph;
  * 1011
  */
 
-public class Recursive02 {
+public class Q02Recursive {
     public void solution(int n) {
         dfs(n);
         System.out.println();
@@ -33,7 +33,7 @@ public class Recursive02 {
     }
 
     public static void main(String[] args) {
-        Recursive02 recursive = new Recursive02();
+        Q02Recursive recursive = new Q02Recursive();
         recursive.solution(11);
     }
 }

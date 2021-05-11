@@ -31,7 +31,7 @@ import java.util.Queue;
  * 5
  */
 
-public class Bfs09 {
+public class Q09Bfs {
     static class Pos {
         private int pos;
         private int count;
@@ -95,7 +95,7 @@ public class Bfs09 {
 
 
     public static void main(String[] args) {
-        Bfs09 subset = new Bfs09();
+        Q09Bfs subset = new Q09Bfs();
         int result = subset.solution2(5, 14);
         System.out.println("result = " + result);
 

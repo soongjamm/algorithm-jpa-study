@@ -37,7 +37,7 @@ import java.util.Queue;
  * 6:2
  */
 
-public class ShortestPath11 {
+public class Q12ShortestPath {
 
     ArrayList<ArrayList<Integer>> map;
     boolean[] visit;
@@ -89,7 +89,7 @@ public class ShortestPath11 {
 
 
     public static void main(String[] args) {
-        ShortestPath11 subset = new ShortestPath11();
+        Q12ShortestPath subset = new Q12ShortestPath();
         subset.solution(6, new int[][]{
                 {1, 3},
                 {1, 4},

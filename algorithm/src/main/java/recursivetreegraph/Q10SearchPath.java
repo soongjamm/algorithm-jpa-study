@@ -1,8 +1,5 @@
 package recursivetreegraph;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * 경로 탐색(인접행렬)
  * <p>
@@ -42,7 +39,7 @@ import java.util.Queue;
  * 6
  */
 
-public class SearchPath10 {
+public class Q10SearchPath {
 
     int[][] map;
     boolean[] visit;
@@ -87,7 +84,7 @@ public class SearchPath10 {
     }
 
     public static void main(String[] args) {
-        SearchPath10 subset = new SearchPath10();
+        Q10SearchPath subset = new Q10SearchPath();
         int result = subset.solution(5, new int[][]{
                 {1, 2},
                 {1, 3},

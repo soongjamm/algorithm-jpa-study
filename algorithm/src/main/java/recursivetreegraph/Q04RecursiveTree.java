@@ -13,7 +13,7 @@ import java.util.Queue;
  * 레벨 탐색 순회 출력 : 1 2 3 4 5 6 7
  */
 
-public class RecursiveTree04 {
+public class Q04RecursiveTree {
 
     static class Node {
         private int data;
@@ -52,7 +52,7 @@ public class RecursiveTree04 {
 
 
     public static void main(String[] args) {
-        RecursiveTree04 recursive = new RecursiveTree04();
+        Q04RecursiveTree recursive = new Q04RecursiveTree();
         recursive.solution();
     }
 }

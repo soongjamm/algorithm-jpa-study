@@ -40,7 +40,7 @@ import java.util.ArrayList;
  * 6
  */
 
-public class SearchPath11 {
+public class Q11SearchPath {
 
     ArrayList<ArrayList<Integer>> map;
     boolean[] visit;
@@ -85,7 +85,7 @@ public class SearchPath11 {
     }
 
     public static void main(String[] args) {
-        SearchPath11 subset = new SearchPath11();
+        Q11SearchPath subset = new Q11SearchPath();
         int result = subset.solution(5, new int[][]{
                 {1, 2},
                 {1, 3},

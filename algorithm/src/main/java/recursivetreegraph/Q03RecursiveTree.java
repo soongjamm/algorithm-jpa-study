@@ -11,7 +11,7 @@ package recursivetreegraph;
  * 후위순회 출력 : 4 5 2 6 7 3 1
  */
 
-public class RecursiveTree03 {
+public class Q03RecursiveTree {
 
     static class Node {
         private int data;
@@ -72,7 +72,7 @@ public class RecursiveTree03 {
     }
 
     public static void main(String[] args) {
-        RecursiveTree03 recursive = new RecursiveTree03();
+        Q03RecursiveTree recursive = new Q03RecursiveTree();
         recursive.solution();
     }
 }

@@ -1,8 +1,5 @@
 package recursivetreegraph;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * 팩토리얼
  * <p>
@@ -21,7 +18,7 @@ import java.util.Queue;
  * 120
  */
 
-public class Factorial05 {
+public class Q05Factorial {
 
     public int solution(int n) {
         if (n <= 1) {
@@ -32,7 +29,7 @@ public class Factorial05 {
 
 
     public static void main(String[] args) {
-        Factorial05 factorial = new Factorial05();
+        Q05Factorial factorial = new Q05Factorial();
         int result = factorial.solution(5);
         System.out.println("result = " + result);
     }

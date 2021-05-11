@@ -1,8 +1,5 @@
 package recursivetreegraph;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * Tree 말단 노드까지의 가장 짧은 경로
  *
@@ -14,7 +11,7 @@ import java.util.Queue;
  * 가장 짧은 길이는 3번 노느까지의 길이인 1이다.
  */
 
-public class ShortestPath07 {
+public class Q07ShortestPath {
 
     static class Node {
         private int data;
@@ -45,7 +42,7 @@ public class ShortestPath07 {
 
 
     public static void main(String[] args) {
-        ShortestPath07 recursive = new ShortestPath07();
+        Q07ShortestPath recursive = new Q07ShortestPath();
         int result = recursive.solution();
         System.out.println("result = " + result);
     }

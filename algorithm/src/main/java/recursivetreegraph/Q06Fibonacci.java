@@ -21,7 +21,7 @@ import java.util.Arrays;
  * 1 1 2 3 5 8 13 21 34 55
  */
 
-public class Fibonacci06 {
+public class Q06Fibonacci {
 
     static int[] mem;
 
@@ -63,7 +63,7 @@ public class Fibonacci06 {
 
 
     public static void main(String[] args) {
-        Fibonacci06 fibonacci = new Fibonacci06();
+        Q06Fibonacci fibonacci = new Q06Fibonacci();
         int[] result = fibonacci.solution(25);
         System.out.println("result = " + Arrays.toString(result));
     }

@@ -24,7 +24,7 @@ package recursivetreegraph;
  * 3
  */
 
-public class Subset08 {
+public class Q08Subset {
 
     boolean[] possible;
     StringBuilder str;
@@ -63,7 +63,7 @@ public class Subset08 {
 
 
     public static void main(String[] args) {
-        Subset08 subset = new Subset08();
+        Q08Subset subset = new Q08Subset();
         subset.solution(3);
     }
 }
